@@ -10,9 +10,11 @@ spec:
   commonName: pavloandriiesh.com
   dnsNames:
     - pavloandriiesh.com
+    - www.pavloandriiesh.com
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
           - pavloandriiesh.com
+          - www.pavloandriiesh.com
